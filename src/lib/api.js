@@ -1,5 +1,5 @@
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+  "https://ganorkarhimesh--sportsvision-backend-fastapi-app.us-east.modal.run";
 
 export async function predictVideo(file) {
   const formData = new FormData();
